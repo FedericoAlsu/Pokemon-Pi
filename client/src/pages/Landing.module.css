@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "retro";
+  src: url("../.././font/VT323-Regular.ttf");
+}
+.seccion {
+  background-image: url("../../landpage.jpg");
+  background-size: cover;
+  min-height: 100vh;
+  background-position: center bottom;
+  position: relative;
+  background-color: #7fac71;
+}
+
+.imagen {
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+
+.link {
+  font-family: "retro";
+  border: none;
+  background-color: transparent;
+  font-size: 30px;
+  display: block;
+  margin: auto;
+  animation-name: apagado;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  position: absolute;
+  bottom: 50%;
+  left: 0;
+  right: 0;
+  text-decoration: none;
+
+}
+
+@keyframes apagado {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+

@@ -1,0 +1,36 @@
+
+
+.propiedad {
+  background-color: rgb(176, 213, 245);
+  border-radius: 20px;
+  width: 30%;
+  display: inline-block;
+  margin: 10px;
+  border: 3px solid #000;
+  border-radius: 20px 20px 20px 20px;
+}
+ .cardRow{
+  
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+
+}
+.img_pokemon{
+  width: 30%;
+  display: block;
+  margin: auto;
+}
+.card {
+  border-radius: 20px;
+  background: linear-gradient(to right, #f5c963,#f0b28d);
+
+}
+
+.type {
+  margin: 3px;
+  color: white;
+  background-color: red;
+  padding: 0 5px;
+  border-radius: 5px;
+}

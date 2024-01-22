@@ -1,0 +1,21 @@
+.error {
+  border: 1px solid red;
+}
+
+.tipos {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 400px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.field{
+  display: flex;
+justify-content: center;
+margin-bottom: 10px;
+}
+
+.label{
+  width: 100px;
+  text-align: left;
+}
